@@ -1,0 +1,62 @@
+kind: ClosedListEntity
+smartMatchingEnabled: true
+items:
+  - id: egeqBh
+    displayName: Strategy & Planning
+    synonyms:
+      - activation
+      - content calendar
+      - campaign
+      - project
+      - content plan
+      - strategy
+      - plan
+
+  - id: GnF9c7
+    displayName: Internal Guidelines & Policies
+    synonyms:
+      - limitations
+      - rules
+      - policy
+      - guidelines
+      - restrictions
+      - company process
+      - guidance
+
+  - id: OIDmLt
+    displayName: Writing Coach & Verbal Identity
+    synonyms:
+      - caption
+      - copy
+      - tone-of-voice
+      - verbal
+      - words
+      - characters
+      - text
+
+  - id: IKBJP7
+    displayName: Content Creation & Publishing
+    synonyms:
+      - file type
+      - assets
+      - graphics
+      - visuals
+      - aspect ratio
+      - dimensions
+      - supported formats
+      - technical specifications
+      - sharing
+      - post
+      - publish
+
+  - id: 4ir9cm
+    displayName: Reporting & Analytics
+    synonyms:
+      - performance
+      - analysis
+      - reporting
+      - insights
+      - data
+      - analyze
+      - kpi
+      - metrics

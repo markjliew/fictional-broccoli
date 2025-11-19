@@ -1,0 +1,12 @@
+<botcomponent schemaname="cmc_amadeusSocialMediaCopilotAgent.knowledge.PublicSiteSearchSource.1">
+  <category>Authoritative</category>
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://business.instagram.com/resources/image-guidelines website</description>
+  <iscustomizable>0</iscustomizable>
+  <name>https://business.instagram.com/resources/image-guidelines</name>
+  <parentbotid>
+    <schemaname>cmc_amadeusSocialMediaCopilotAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

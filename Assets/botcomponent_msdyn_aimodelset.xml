@@ -1,0 +1,5 @@
+<botcomponent_msdyn_aimodelset>
+  <botcomponent_msdyn_aimodel botcomponentid.schemaname="cmc_amadeusSocialMediaCopilotAgent.topic.StrategyAndPlanning" msdyn_aimodelid.msdyn_aimodelid="35ecd2c6-e0cb-424c-8dd4-d6b1b56123ec">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_msdyn_aimodel>
+</botcomponent_msdyn_aimodelset>

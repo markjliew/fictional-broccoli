@@ -1,0 +1,83 @@
+kind: AdaptiveDialog
+modelDisplayName: ContentCreationPublishing2
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  condition: =Global.Topic = 'cmc_amadeusSocialMediaCopilotAgent.entity.Topic'.IKBJP7
+  intent:
+    displayName: ContentCreationPublishing (Copy)
+    triggerQueries:
+      - content creation
+      - how to create content
+      - publishing content
+      - tips for content creation
+      - guide to publishing articles
+      - create and publish blog posts
+      - content writing help
+      - steps to publish online content
+      - best practices for creating content
+
+  actions:
+    - kind: Question
+      id: question_x1rxA0
+      interruptionPolicy:
+        allowInterruption: true
+
+      variable: Global.Topic
+      prompt: Sounds like you need help with {'cmc_amadeusSocialMediaCopilotAgent.entity.Topic'.IKBJP7}
+      entity:
+        kind: ClosedListEntityReference
+        entityId: cmc_amadeusSocialMediaCopilotAgent.entity.Topic
+
+    - kind: Question
+      id: Question_lM0JmA
+      variable: Global.SocialNetworks
+      prompt: Which social media platform are you working on? (e.g., Instagram, LinkedIn, Facebook)
+      entity:
+        kind: ClosedListEntityReference
+        entityId: cmc_amadeusSocialMediaCopilotAgent.entity.SocialNetworks
+
+    - kind: Question
+      id: Question_DihtQM
+      variable: Global.ContentFormat
+      prompt: What type of content are you creating? (e.g., image, video, text)
+      entity:
+        kind: ClosedListEntityReference
+        entityId: cmc_amadeusSocialMediaCopilotAgent.entity.ContentFormat
+
+    - kind: Question
+      id: Question_OTeAgk
+      variable: Global.PublishingMethod
+      prompt: Are you publishing directly or using a scheduling tool?
+      entity:
+        kind: ClosedListEntityReference
+        entityId: cmc_amadeusSocialMediaCopilotAgent.entity.PublishingMethod
+
+    - kind: ConditionGroup
+      id: ConditionGroup_Excuqt
+      conditions:
+        - id: ConditionItem_pT5PGw
+          condition: false
+          actions:
+            - kind: SendActivity
+              id: SendActivity_n3aOMi
+              activity: For Instagram images, use 1080x1080px dimensions with a max file size of 5MB.
+
+        - id: ConditionItem_peosQs
+          condition: false
+          actions:
+            - kind: SendActivity
+              id: SendActivity_CgAxIt
+              activity: For LinkedIn videos, ensure the video is under 15 minutes and in MP4 format.
+
+        - id: ConditionItem_0lwUxX
+          condition: false
+          actions:
+            - kind: SendActivity
+              id: SendActivity_niYX2x
+              activity: For Facebook text posts, keep posts under 80 characters for better engagement.
+
+      elseActions:
+        - kind: SendActivity
+          id: SendActivity_uXAReS
+          activity: Could you clarify the platform you're working on or the type of content you are creating?

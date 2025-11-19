@@ -1,0 +1,113 @@
+kind: AdaptiveDialog
+modelDescription: |-
+  This topic helps users define their social media strategy by identifying their primary campaign goals (e.g., Awareness, Engagement, Conversions, Web visits) and selecting the platform they want to focus on (e.g., Instagram, LinkedIn, Facebook, X (Twitter), YouTube). It is triggered when the agent needs to guide the user through a structured process to refine their campaign strategy. The agent initiates this topic when users ask for help with social media planning or strategy recommendations.
+
+  Trigger phrases:
+  "Help me with social media."
+  "What's a good strategy for LinkedIn?"
+  "How do I improve engagement on my posts?"
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  condition: =Global.Topic = 'cmc_amadeusSocialMediaCopilotAgent.entity.Topic'.egeqBh
+  intent:
+    displayName: StrategyAndPlanning
+    triggerQueries:
+      - strategy and planning
+      - planning session
+      - help me plan
+      - refine my strategy
+
+  actions:
+    - kind: InvokeAIBuilderModelAction
+      id: invokeAIBuilderModelAction_7l3rcu
+      input:
+        binding:
+          ContentFormat: =System.LastMessage.Text
+          inputtext: =System.LastMessage.Text
+          Objective: =System.LastMessage.Text
+          SocialNetworks: =System.LastMessage.Text
+          TargetAudience: =System.LastMessage.Text
+
+      output:
+        binding:
+          predictionOutput: Topic.Var1
+
+      aIModelId: 35ecd2c6-e0cb-424c-8dd4-d6b1b56123ec
+
+    - kind: Question
+      id: askGoalType
+      interruptionPolicy:
+        allowInterruption: true
+
+      variable: Global.Objectives
+      prompt: |-
+        What is your main social media goal?  
+        Options:  
+        - **Engagement**: Increase likes, shares, and comments.  
+        - **Awareness**: Boost reach and visibility.  
+        - **Traffic**: Drive website visitors.  
+        - **Conversions**: Get registrations or sales.  
+      entity:
+        kind: OneOfMultiEntityReference
+        entities:
+          - entity:
+              kind: ClosedListEntityReference
+              entityId: cmc_amadeusSocialMediaCopilotAgent.entity.SocialNetworks
+
+            propertyName: SocialNetwork
+
+          - entity:
+              kind: ClosedListEntityReference
+              entityId: cmc_amadeusSocialMediaCopilotAgent.entity.ContentFormat
+
+            propertyName: ContentFormat
+
+          - entity:
+              kind: ClosedListEntityReference
+              entityId: cmc_amadeusSocialMediaCopilotAgent.entity.PublishingMethod
+
+            propertyName: PublishingMethod
+
+          - entity:
+              kind: ClosedListEntityReference
+              entityId: cmc_amadeusSocialMediaCopilotAgent.entity.Topic
+
+            propertyName: Topic
+
+          - entity:
+              kind: ClosedListEntityReference
+              entityId: cmc_amadeusSocialMediaCopilotAgent.entity.Objectives
+
+            propertyName: Objectives
+
+    - kind: ConditionGroup
+      id: conditionGroup_goalType
+      conditions:
+        - id: conditionItem_engagement
+          condition: false
+          actions:
+            - kind: SendActivity
+              id: sendEngagementMessage
+              activity: For building awareness, I recommend leveraging video campaigns, targeted ads, and consistent content posting.
+
+        - id: conditionItem_awareness
+          condition: false
+          actions:
+            - kind: SendActivity
+              id: sendAwarenessMessage
+              activity: For conversions, focus on landing pages, lead magnets, and paid ad campaigns optimized for sign-ups or sales.
+
+        - id: conditionItem_traffic
+          condition: false
+          actions:
+            - kind: SendActivity
+              id: sendTrafficMessage
+              activity: Great choice! Let's focus on boosting engagement with shareable content like polls, stories, and interactive visuals.
+
+        - id: conditionItem_wkOhdh
+          condition: false
+          actions:
+            - kind: SendActivity
+              id: sendActivity_yaUy3f
+              activity: To drive website traffic, ensure strong CTAs, optimized links, and engaging blog content.

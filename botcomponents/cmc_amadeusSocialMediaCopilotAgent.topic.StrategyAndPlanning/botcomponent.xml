@@ -1,0 +1,11 @@
+<botcomponent schemaname="cmc_amadeusSocialMediaCopilotAgent.topic.StrategyAndPlanning">
+  <componenttype>9</componenttype>
+  <description>Handles social media strategy creation, target audience, and goal definition.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>StrategyAndPlanning</name>
+  <parentbotid>
+    <schemaname>cmc_amadeusSocialMediaCopilotAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

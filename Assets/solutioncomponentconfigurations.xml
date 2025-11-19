@@ -1,0 +1,15 @@
+<solutioncomponentconfigurations>
+  <solutioncomponentconfiguration entityid.logicalname="aicopilot"></solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="aiplugin"></solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="aipluginconversationstarter"></solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="aipluginconversationstartermapping"></solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="aipluginexternalschema"></solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="aipluginexternalschemaproperty"></solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="aiplugininstance"></solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="aipluginoperation"></solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="aipluginoperationresponsetemplate"></solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="aiplugintitle"></solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="aiskillconfig"></solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="botcomponent_aipluginoperation"></solutioncomponentconfiguration>
+  <solutioncomponentconfiguration entityid.logicalname="botcomponent_msdyn_aimodel"></solutioncomponentconfiguration>
+</solutioncomponentconfigurations>

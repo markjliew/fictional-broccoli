@@ -1,0 +1,34 @@
+kind: ClosedListEntity
+smartMatchingEnabled: true
+items:
+  - id: AgbyWS
+    displayName: Engagement
+    synonyms:
+      - interactions
+      - shares
+      - reactions
+
+  - id: itmEB9
+    displayName: Traffic
+    synonyms:
+      - visits
+      - traffic acquisition
+      - web visitors
+      - drive traffic
+
+  - id: 4hK8t5
+    displayName: Awareness
+    synonyms:
+      - visibility
+      - exposure
+      - reach
+      - impressions
+
+  - id: ZF5SH4
+    displayName: Conversions
+    synonyms:
+      - sign-ups
+      - leads
+      - form submissions
+      - registrations
+      - submissions

@@ -1,0 +1,11 @@
+<botcomponent schemaname="cmc_amadeusSocialMediaCopilotAgent.knowledge.SharePointSearchSource.1">
+  <componenttype>16</componenttype>
+  <description>This knowledge source provides information found in EXmRw0GCvLVEr4Fvkw9hE40BOxgQUc6RlpuhVsyiiu4b3A SharePoint.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Hootsuite Admin Handbook</name>
+  <parentbotid>
+    <schemaname>cmc_amadeusSocialMediaCopilotAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

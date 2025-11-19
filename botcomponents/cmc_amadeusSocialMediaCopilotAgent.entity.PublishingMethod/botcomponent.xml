@@ -1,0 +1,10 @@
+<botcomponent schemaname="cmc_amadeusSocialMediaCopilotAgent.entity.PublishingMethod">
+  <componenttype>11</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>PublishingMethod</name>
+  <parentbotid>
+    <schemaname>cmc_amadeusSocialMediaCopilotAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

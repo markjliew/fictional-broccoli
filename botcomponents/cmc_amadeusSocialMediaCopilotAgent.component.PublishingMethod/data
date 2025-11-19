@@ -1,0 +1,6 @@
+kind: Variable
+name: PublishingMethod
+scope: Conversation
+isExternalInitializationAllowed: false
+initializationTimeoutInMilliseconds: 0
+aIVisibility: Hidden

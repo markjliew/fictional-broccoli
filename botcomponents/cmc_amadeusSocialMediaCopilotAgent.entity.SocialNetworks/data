@@ -1,0 +1,42 @@
+kind: ClosedListEntity
+smartMatchingEnabled: true
+items:
+  - id: tyhcrg
+    displayName: Facebook
+    synonyms:
+      - faceboko
+      - FB
+      - fcbk
+      - facebk
+
+  - id: fGddyN
+    displayName: LinkedIn
+    synonyms:
+      - linkedn
+      - linekdin
+      - lnkdn
+      - LI
+
+  - id: r4YVbN
+    displayName: X
+    synonyms:
+      - twtry
+      - TW
+      - tweet
+      - Twitter
+
+  - id: sIw6Pb
+    displayName: Instagram
+    synonyms:
+      - instgrm
+      - insta
+      - IG
+      - gram
+
+  - id: xX7CRI
+    displayName: YouTube
+    synonyms:
+      - youtbe
+      - ytbe
+      - yuutube
+      - YT

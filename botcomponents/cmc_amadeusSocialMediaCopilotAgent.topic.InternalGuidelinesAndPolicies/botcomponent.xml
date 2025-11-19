@@ -1,0 +1,11 @@
+<botcomponent schemaname="cmc_amadeusSocialMediaCopilotAgent.topic.InternalGuidelinesAndPolicies">
+  <componenttype>9</componenttype>
+  <description>Ensures posts comply with internal policies, branding, and privacy rules.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>InternalGuidelinesAndPolicies</name>
+  <parentbotid>
+    <schemaname>cmc_amadeusSocialMediaCopilotAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

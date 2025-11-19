@@ -1,0 +1,2232 @@
+<ImportExportXml version="9.2.25102.161" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25102.161" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25103.00169">
+  <SolutionManifest>
+    <UniqueName>AmadeusSocialMediaCopilotAgent</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Amadeus Social Media Copilot Agent" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.7</Version>
+    <Managed>1</Managed>
+    <Publisher>
+      <UniqueName>CMC_EXC_DMK</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="CMC-EXC-DMK" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Global External Communications &amp; Digital Marketing" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>cmc</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>76841</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="aicopilot" behavior="0" />
+      <RootComponent type="1" schemaName="aiplugin" behavior="0" />
+      <RootComponent type="1" schemaName="aipluginauth" behavior="0" />
+      <RootComponent type="1" schemaName="aipluginconversationstarter" behavior="0" />
+      <RootComponent type="1" schemaName="aipluginconversationstartermapping" behavior="0" />
+      <RootComponent type="1" schemaName="aipluginexternalschema" behavior="0" />
+      <RootComponent type="1" schemaName="aipluginexternalschemaproperty" behavior="0" />
+      <RootComponent type="1" schemaName="aiplugingovernance" behavior="0" />
+      <RootComponent type="1" schemaName="aiplugingovernanceext" behavior="0" />
+      <RootComponent type="1" schemaName="aiplugininstance" behavior="0" />
+      <RootComponent type="1" schemaName="aipluginoperation" behavior="0" />
+      <RootComponent type="1" schemaName="aipluginoperationparameter" behavior="0" />
+      <RootComponent type="1" schemaName="aipluginoperationresponsetemplate" behavior="0" />
+      <RootComponent type="1" schemaName="aiplugintitle" behavior="0" />
+      <RootComponent type="1" schemaName="aipluginusersetting" behavior="0" />
+      <RootComponent type="1" schemaName="aiskillconfig" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aibdataset" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aibdatasetfile" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aibdatasetrecord" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aibdatasetscontainer" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aibfeedbackloop" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aibfile" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aibfileattacheddata" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aiconfiguration" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aievent" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aifptrainingdocument" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aimodel" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aiodimage" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aiodlabel" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aiodtrainingboundingbox" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aiodtrainingimage" behavior="0" />
+      <RootComponent type="1" schemaName="msdyn_aitemplate" behavior="0" />
+      <RootComponent type="91" id="{5b959593-2735-482e-9eaa-a34320e556ae}" schemaName="Microsoft.CDS.PowerAIExtensions.Plugins, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" behavior="0" />
+      <RootComponent type="91" id="{23c52595-51d7-431a-8f4f-a60649d1c733}" schemaName="Microsoft.Dynamics.BusinessCopilotAI.Plugins, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" behavior="0" />
+      <RootComponent type="91" id="{738e7ceb-8b93-4602-acb2-7885f7496c3b}" schemaName="Microsoft.Dynamics.PowerAppsChecker.Plugins, Version=2.0.0.167, Culture=neutral, PublicKeyToken=31bf3856ad364e35" behavior="0" />
+      <RootComponent type="91" id="{f35fde6e-d0a0-41c5-a355-188f20f940a8}" schemaName="Microsoft.Dynamics.PowerVA.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" behavior="0" />
+      <RootComponent type="91" id="{f7ac8f70-f121-4262-902f-9ea5d10592fe}" schemaName="Microsoft.Dynamics.SolutionComponentConfiguration.Plugins, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" behavior="0" />
+      <RootComponent type="91" id="{a56a252d-a669-4639-808d-dbef33955446}" schemaName="Microsoft.PowerApps.AppCopilotFeatures.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" behavior="0" />
+      <RootComponent type="92" id="{4e2492eb-f393-ea11-a81e-000d3ac62845}" behavior="0" />
+      <RootComponent type="92" id="{891375c2-f6e0-ee11-904c-6045bd04f723}" behavior="0" />
+      <RootComponent type="92" id="{9ed35044-476d-4b71-a7f8-6194edbf0b39}" behavior="0" />
+      <RootComponent type="92" id="{b2d0db0e-f6e0-ee11-904c-6045bd04f723}" behavior="0" />
+      <RootComponent type="401" id="{35ecd2c6-e0cb-424c-8dd4-d6b1b56123ec}" behavior="0" />
+      <RootComponent type="401" id="{4338b29e-9279-49a6-8dc7-23143ca6d39d}" behavior="0" />
+      <RootComponent type="401" id="{b38bfad2-7f6f-48b4-a01e-be758c30114c}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="aicopilot" displayName="AICopilot" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="1" schemaName="aicopilot" displayName="AICopilot" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aicopilot" displayName="AICopilot" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aicopilot" parentDisplayName="AICopilot" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aicopilot" displayName="AICopilot" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aicopilot" parentDisplayName="AICopilot" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aicopilot" displayName="AICopilot" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aicopilot" parentDisplayName="AICopilot" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aicopilot" displayName="AICopilot" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aicopilot" parentDisplayName="AICopilot" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aicopilot" displayName="AICopilot" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="organizationid" displayName="Organization Id" parentSchemaName="aicopilot" parentDisplayName="AICopilot" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aicopilot" displayName="AICopilot" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aicopilot" parentDisplayName="AICopilot" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugin" displayName="AIPlugin" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="1" schemaName="aiplugin" displayName="AIPlugin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugin" displayName="AIPlugin" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="aiplugintitle" parentSchemaName="aiplugin" parentDisplayName="AIPlugin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugin" displayName="AIPlugin" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aiplugin" parentDisplayName="AIPlugin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugin" displayName="AIPlugin" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aiplugin" parentDisplayName="AIPlugin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugin" displayName="AIPlugin" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aiplugin" parentDisplayName="AIPlugin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugin" displayName="AIPlugin" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aiplugin" parentDisplayName="AIPlugin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugin" displayName="AIPlugin" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="aiplugin" parentDisplayName="AIPlugin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugin" displayName="AIPlugin" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="aiplugin" parentDisplayName="AIPlugin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugin" displayName="AIPlugin" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="aiplugin" parentDisplayName="AIPlugin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugin" displayName="AIPlugin" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="aiplugin" parentDisplayName="AIPlugin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugin" displayName="AIPlugin" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aiplugin" parentDisplayName="AIPlugin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginauth" displayName="AIPluginAuth" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="1" schemaName="aipluginauth" displayName="AIPluginAuth" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginauth" displayName="AIPluginAuth" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aipluginauth" parentDisplayName="AIPluginAuth" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginauth" displayName="AIPluginAuth" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aipluginauth" parentDisplayName="AIPluginAuth" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginauth" displayName="AIPluginAuth" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aipluginauth" parentDisplayName="AIPluginAuth" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginauth" displayName="AIPluginAuth" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aipluginauth" parentDisplayName="AIPluginAuth" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginauth" displayName="AIPluginAuth" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="aipluginauth" parentDisplayName="AIPluginAuth" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginauth" displayName="AIPluginAuth" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="aipluginauth" parentDisplayName="AIPluginAuth" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginauth" displayName="AIPluginAuth" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="aipluginauth" parentDisplayName="AIPluginAuth" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginauth" displayName="AIPluginAuth" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="aipluginauth" parentDisplayName="AIPluginAuth" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginauth" displayName="AIPluginAuth" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aipluginauth" parentDisplayName="AIPluginAuth" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstarter" displayName="AI Plugin Conversation Starter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="1" schemaName="aipluginconversationstarter" displayName="AI Plugin Conversation Starter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstarter" displayName="AI Plugin Conversation Starter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aipluginconversationstarter" parentDisplayName="AI Plugin Conversation Starter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstarter" displayName="AI Plugin Conversation Starter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aipluginconversationstarter" parentDisplayName="AI Plugin Conversation Starter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstarter" displayName="AI Plugin Conversation Starter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aipluginconversationstarter" parentDisplayName="AI Plugin Conversation Starter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstarter" displayName="AI Plugin Conversation Starter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aipluginconversationstarter" parentDisplayName="AI Plugin Conversation Starter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstarter" displayName="AI Plugin Conversation Starter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="aipluginconversationstarter" parentDisplayName="AI Plugin Conversation Starter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstarter" displayName="AI Plugin Conversation Starter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="aipluginconversationstarter" parentDisplayName="AI Plugin Conversation Starter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstarter" displayName="AI Plugin Conversation Starter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="aipluginconversationstarter" parentDisplayName="AI Plugin Conversation Starter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstarter" displayName="AI Plugin Conversation Starter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="aipluginconversationstarter" parentDisplayName="AI Plugin Conversation Starter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstarter" displayName="AI Plugin Conversation Starter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aipluginconversationstarter" parentDisplayName="AI Plugin Conversation Starter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstartermapping" displayName="AI Plugin Conversation Starter Mapping" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="1" schemaName="aipluginconversationstartermapping" displayName="AI Plugin Conversation Starter Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstartermapping" displayName="AI Plugin Conversation Starter Mapping" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aipluginconversationstartermapping" parentDisplayName="AI Plugin Conversation Starter Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstartermapping" displayName="AI Plugin Conversation Starter Mapping" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aipluginconversationstartermapping" parentDisplayName="AI Plugin Conversation Starter Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstartermapping" displayName="AI Plugin Conversation Starter Mapping" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aipluginconversationstartermapping" parentDisplayName="AI Plugin Conversation Starter Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstartermapping" displayName="AI Plugin Conversation Starter Mapping" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aipluginconversationstartermapping" parentDisplayName="AI Plugin Conversation Starter Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstartermapping" displayName="AI Plugin Conversation Starter Mapping" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="aipluginconversationstartermapping" parentDisplayName="AI Plugin Conversation Starter Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstartermapping" displayName="AI Plugin Conversation Starter Mapping" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="aipluginconversationstartermapping" parentDisplayName="AI Plugin Conversation Starter Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstartermapping" displayName="AI Plugin Conversation Starter Mapping" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="aipluginconversationstartermapping" parentDisplayName="AI Plugin Conversation Starter Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstartermapping" displayName="AI Plugin Conversation Starter Mapping" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="aipluginconversationstartermapping" parentDisplayName="AI Plugin Conversation Starter Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginconversationstartermapping" displayName="AI Plugin Conversation Starter Mapping" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aipluginconversationstartermapping" parentDisplayName="AI Plugin Conversation Starter Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschema" displayName="AIPluginExternalSchema" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="1" schemaName="aipluginexternalschema" displayName="AIPluginExternalSchema" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschema" displayName="AIPluginExternalSchema" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aipluginexternalschema" parentDisplayName="AIPluginExternalSchema" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschema" displayName="AIPluginExternalSchema" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aipluginexternalschema" parentDisplayName="AIPluginExternalSchema" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschema" displayName="AIPluginExternalSchema" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aipluginexternalschema" parentDisplayName="AIPluginExternalSchema" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschema" displayName="AIPluginExternalSchema" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aipluginexternalschema" parentDisplayName="AIPluginExternalSchema" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschema" displayName="AIPluginExternalSchema" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="aipluginexternalschema" parentDisplayName="AIPluginExternalSchema" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschema" displayName="AIPluginExternalSchema" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="aipluginexternalschema" parentDisplayName="AIPluginExternalSchema" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschema" displayName="AIPluginExternalSchema" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="aipluginexternalschema" parentDisplayName="AIPluginExternalSchema" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschema" displayName="AIPluginExternalSchema" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="aipluginexternalschema" parentDisplayName="AIPluginExternalSchema" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschema" displayName="AIPluginExternalSchema" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aipluginexternalschema" parentDisplayName="AIPluginExternalSchema" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschemaproperty" displayName="AIPluginExternalSchemaProperty" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="1" schemaName="aipluginexternalschemaproperty" displayName="AIPluginExternalSchemaProperty" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschemaproperty" displayName="AIPluginExternalSchemaProperty" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aipluginexternalschemaproperty" parentDisplayName="AIPluginExternalSchemaProperty" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschemaproperty" displayName="AIPluginExternalSchemaProperty" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aipluginexternalschemaproperty" parentDisplayName="AIPluginExternalSchemaProperty" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschemaproperty" displayName="AIPluginExternalSchemaProperty" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aipluginexternalschemaproperty" parentDisplayName="AIPluginExternalSchemaProperty" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschemaproperty" displayName="AIPluginExternalSchemaProperty" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aipluginexternalschemaproperty" parentDisplayName="AIPluginExternalSchemaProperty" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschemaproperty" displayName="AIPluginExternalSchemaProperty" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="aipluginexternalschemaproperty" parentDisplayName="AIPluginExternalSchemaProperty" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschemaproperty" displayName="AIPluginExternalSchemaProperty" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="aipluginexternalschemaproperty" parentDisplayName="AIPluginExternalSchemaProperty" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschemaproperty" displayName="AIPluginExternalSchemaProperty" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="aipluginexternalschemaproperty" parentDisplayName="AIPluginExternalSchemaProperty" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschemaproperty" displayName="AIPluginExternalSchemaProperty" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="aipluginexternalschemaproperty" parentDisplayName="AIPluginExternalSchemaProperty" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginexternalschemaproperty" displayName="AIPluginExternalSchemaProperty" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aipluginexternalschemaproperty" parentDisplayName="AIPluginExternalSchemaProperty" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernance" displayName="AI Plugin Governance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="1" schemaName="aiplugingovernance" displayName="AI Plugin Governance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernance" displayName="AI Plugin Governance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aiplugingovernance" parentDisplayName="AI Plugin Governance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernance" displayName="AI Plugin Governance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aiplugingovernance" parentDisplayName="AI Plugin Governance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernance" displayName="AI Plugin Governance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aiplugingovernance" parentDisplayName="AI Plugin Governance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernance" displayName="AI Plugin Governance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aiplugingovernance" parentDisplayName="AI Plugin Governance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernance" displayName="AI Plugin Governance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="aiplugingovernance" parentDisplayName="AI Plugin Governance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernance" displayName="AI Plugin Governance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="aiplugingovernance" parentDisplayName="AI Plugin Governance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernance" displayName="AI Plugin Governance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="aiplugingovernance" parentDisplayName="AI Plugin Governance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernance" displayName="AI Plugin Governance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="aiplugingovernance" parentDisplayName="AI Plugin Governance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernance" displayName="AI Plugin Governance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aiplugingovernance" parentDisplayName="AI Plugin Governance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernanceext" displayName="AI Plugin Governance Extended" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="1" schemaName="aiplugingovernanceext" displayName="AI Plugin Governance Extended" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernanceext" displayName="AI Plugin Governance Extended" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aiplugingovernanceext" parentDisplayName="AI Plugin Governance Extended" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernanceext" displayName="AI Plugin Governance Extended" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aiplugingovernanceext" parentDisplayName="AI Plugin Governance Extended" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernanceext" displayName="AI Plugin Governance Extended" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aiplugingovernanceext" parentDisplayName="AI Plugin Governance Extended" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernanceext" displayName="AI Plugin Governance Extended" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aiplugingovernanceext" parentDisplayName="AI Plugin Governance Extended" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernanceext" displayName="AI Plugin Governance Extended" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="aiplugingovernanceext" parentDisplayName="AI Plugin Governance Extended" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernanceext" displayName="AI Plugin Governance Extended" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="aiplugingovernanceext" parentDisplayName="AI Plugin Governance Extended" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernanceext" displayName="AI Plugin Governance Extended" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="aiplugingovernanceext" parentDisplayName="AI Plugin Governance Extended" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernanceext" displayName="AI Plugin Governance Extended" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="aiplugingovernanceext" parentDisplayName="AI Plugin Governance Extended" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugingovernanceext" displayName="AI Plugin Governance Extended" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aiplugingovernanceext" parentDisplayName="AI Plugin Governance Extended" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugininstance" displayName="AIPluginInstance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="1" schemaName="aiplugininstance" displayName="AIPluginInstance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugininstance" displayName="AIPluginInstance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aiplugininstance" parentDisplayName="AIPluginInstance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugininstance" displayName="AIPluginInstance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aiplugininstance" parentDisplayName="AIPluginInstance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugininstance" displayName="AIPluginInstance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aiplugininstance" parentDisplayName="AIPluginInstance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugininstance" displayName="AIPluginInstance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aiplugininstance" parentDisplayName="AIPluginInstance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugininstance" displayName="AIPluginInstance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="aiplugininstance" parentDisplayName="AIPluginInstance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugininstance" displayName="AIPluginInstance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="aiplugininstance" parentDisplayName="AIPluginInstance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugininstance" displayName="AIPluginInstance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="aiplugininstance" parentDisplayName="AIPluginInstance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugininstance" displayName="AIPluginInstance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="aiplugininstance" parentDisplayName="AIPluginInstance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugininstance" displayName="AIPluginInstance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aiplugininstance" parentDisplayName="AIPluginInstance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperation" displayName="AIPluginOperation" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="1" schemaName="aipluginoperation" displayName="AIPluginOperation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperation" displayName="AIPluginOperation" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aipluginoperation" parentDisplayName="AIPluginOperation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperation" displayName="AIPluginOperation" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aipluginoperation" parentDisplayName="AIPluginOperation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperation" displayName="AIPluginOperation" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aipluginoperation" parentDisplayName="AIPluginOperation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperation" displayName="AIPluginOperation" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aipluginoperation" parentDisplayName="AIPluginOperation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperation" displayName="AIPluginOperation" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="aipluginoperation" parentDisplayName="AIPluginOperation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperation" displayName="AIPluginOperation" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="aipluginoperation" parentDisplayName="AIPluginOperation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperation" displayName="AIPluginOperation" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="aipluginoperation" parentDisplayName="AIPluginOperation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperation" displayName="AIPluginOperation" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="aipluginoperation" parentDisplayName="AIPluginOperation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperation" displayName="AIPluginOperation" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aipluginoperation" parentDisplayName="AIPluginOperation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationparameter" displayName="AIPluginOperationParameter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="1" schemaName="aipluginoperationparameter" displayName="AIPluginOperationParameter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationparameter" displayName="AIPluginOperationParameter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aipluginoperationparameter" parentDisplayName="AIPluginOperationParameter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationparameter" displayName="AIPluginOperationParameter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aipluginoperationparameter" parentDisplayName="AIPluginOperationParameter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationparameter" displayName="AIPluginOperationParameter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aipluginoperationparameter" parentDisplayName="AIPluginOperationParameter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationparameter" displayName="AIPluginOperationParameter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aipluginoperationparameter" parentDisplayName="AIPluginOperationParameter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationparameter" displayName="AIPluginOperationParameter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="aipluginoperationparameter" parentDisplayName="AIPluginOperationParameter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationparameter" displayName="AIPluginOperationParameter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="aipluginoperationparameter" parentDisplayName="AIPluginOperationParameter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationparameter" displayName="AIPluginOperationParameter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="aipluginoperationparameter" parentDisplayName="AIPluginOperationParameter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationparameter" displayName="AIPluginOperationParameter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="aipluginoperationparameter" parentDisplayName="AIPluginOperationParameter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationparameter" displayName="AIPluginOperationParameter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aipluginoperationparameter" parentDisplayName="AIPluginOperationParameter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationresponsetemplate" displayName="AIPluginOperationResponseTemplate" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="1" schemaName="aipluginoperationresponsetemplate" displayName="AIPluginOperationResponseTemplate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationresponsetemplate" displayName="AIPluginOperationResponseTemplate" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aipluginoperationresponsetemplate" parentDisplayName="AIPluginOperationResponseTemplate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationresponsetemplate" displayName="AIPluginOperationResponseTemplate" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aipluginoperationresponsetemplate" parentDisplayName="AIPluginOperationResponseTemplate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationresponsetemplate" displayName="AIPluginOperationResponseTemplate" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aipluginoperationresponsetemplate" parentDisplayName="AIPluginOperationResponseTemplate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationresponsetemplate" displayName="AIPluginOperationResponseTemplate" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aipluginoperationresponsetemplate" parentDisplayName="AIPluginOperationResponseTemplate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationresponsetemplate" displayName="AIPluginOperationResponseTemplate" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="aipluginoperationresponsetemplate" parentDisplayName="AIPluginOperationResponseTemplate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationresponsetemplate" displayName="AIPluginOperationResponseTemplate" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="aipluginoperationresponsetemplate" parentDisplayName="AIPluginOperationResponseTemplate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationresponsetemplate" displayName="AIPluginOperationResponseTemplate" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="aipluginoperationresponsetemplate" parentDisplayName="AIPluginOperationResponseTemplate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationresponsetemplate" displayName="AIPluginOperationResponseTemplate" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="aipluginoperationresponsetemplate" parentDisplayName="AIPluginOperationResponseTemplate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginoperationresponsetemplate" displayName="AIPluginOperationResponseTemplate" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aipluginoperationresponsetemplate" parentDisplayName="AIPluginOperationResponseTemplate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugintitle" displayName="AIPluginTitle" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="1" schemaName="aiplugintitle" displayName="AIPluginTitle" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugintitle" displayName="AIPluginTitle" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aiplugintitle" parentDisplayName="AIPluginTitle" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugintitle" displayName="AIPluginTitle" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aiplugintitle" parentDisplayName="AIPluginTitle" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugintitle" displayName="AIPluginTitle" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="iconscolorimageid" parentSchemaName="aiplugintitle" parentDisplayName="AIPluginTitle" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugintitle" displayName="AIPluginTitle" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="iconsoutlineimageid" parentSchemaName="aiplugintitle" parentDisplayName="AIPluginTitle" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugintitle" displayName="AIPluginTitle" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aiplugintitle" parentDisplayName="AIPluginTitle" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugintitle" displayName="AIPluginTitle" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aiplugintitle" parentDisplayName="AIPluginTitle" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugintitle" displayName="AIPluginTitle" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="organizationid" displayName="Organization Id" parentSchemaName="aiplugintitle" parentDisplayName="AIPluginTitle" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiplugintitle" displayName="AIPluginTitle" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aiplugintitle" parentDisplayName="AIPluginTitle" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginusersetting" displayName="AIPluginUserSetting" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="1" schemaName="aipluginusersetting" displayName="AIPluginUserSetting" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginusersetting" displayName="AIPluginUserSetting" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aipluginusersetting" parentDisplayName="AIPluginUserSetting" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginusersetting" displayName="AIPluginUserSetting" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aipluginusersetting" parentDisplayName="AIPluginUserSetting" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginusersetting" displayName="AIPluginUserSetting" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aipluginusersetting" parentDisplayName="AIPluginUserSetting" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginusersetting" displayName="AIPluginUserSetting" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aipluginusersetting" parentDisplayName="AIPluginUserSetting" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginusersetting" displayName="AIPluginUserSetting" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="aipluginusersetting" parentDisplayName="AIPluginUserSetting" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginusersetting" displayName="AIPluginUserSetting" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="aipluginusersetting" parentDisplayName="AIPluginUserSetting" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginusersetting" displayName="AIPluginUserSetting" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="aipluginusersetting" parentDisplayName="AIPluginUserSetting" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginusersetting" displayName="AIPluginUserSetting" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="aipluginusersetting" parentDisplayName="AIPluginUserSetting" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aipluginusersetting" displayName="AIPluginUserSetting" solution="msft_AIPlatformExtensionsCore (1.0.0.96)">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aipluginusersetting" parentDisplayName="AIPluginUserSetting" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiskillconfig" displayName="AI Skill Config" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025062.250606027)">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.0.1">PowerAppsAppCopilotApp_Anchor (9.2.0.1)</package>
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="1" schemaName="aiskillconfig" displayName="AI Skill Config" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiskillconfig" displayName="AI Skill Config" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025062.250606027)">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.0.1">PowerAppsAppCopilotApp_Anchor (9.2.0.1)</package>
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="aiskillconfig" parentDisplayName="AI Skill Config" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiskillconfig" displayName="AI Skill Config" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025062.250606027)">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.0.1">PowerAppsAppCopilotApp_Anchor (9.2.0.1)</package>
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="aiskillconfig" parentDisplayName="AI Skill Config" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiskillconfig" displayName="AI Skill Config" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025062.250606027)">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.0.1">PowerAppsAppCopilotApp_Anchor (9.2.0.1)</package>
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="aiskillconfig" parentDisplayName="AI Skill Config" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiskillconfig" displayName="AI Skill Config" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025062.250606027)">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.0.1">PowerAppsAppCopilotApp_Anchor (9.2.0.1)</package>
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="aiskillconfig" parentDisplayName="AI Skill Config" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiskillconfig" displayName="AI Skill Config" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025062.250606027)">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.0.1">PowerAppsAppCopilotApp_Anchor (9.2.0.1)</package>
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="aiskillconfig" parentDisplayName="AI Skill Config" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiskillconfig" displayName="AI Skill Config" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025062.250606027)">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.0.1">PowerAppsAppCopilotApp_Anchor (9.2.0.1)</package>
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="aiskillconfig" parentDisplayName="AI Skill Config" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiskillconfig" displayName="AI Skill Config" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025062.250606027)">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.0.1">PowerAppsAppCopilotApp_Anchor (9.2.0.1)</package>
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="aiskillconfig" parentDisplayName="AI Skill Config" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiskillconfig" displayName="AI Skill Config" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025062.250606027)">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.0.1">PowerAppsAppCopilotApp_Anchor (9.2.0.1)</package>
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="aiskillconfig" parentDisplayName="AI Skill Config" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="aiskillconfig" displayName="AI Skill Config" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025062.250606027)">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.0.1">PowerAppsAppCopilotApp_Anchor (9.2.0.1)</package>
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="aiskillconfig" parentDisplayName="AI Skill Config" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="appelement" displayName="Model-Driven App Element" solution="AppModule (9.2.2508.2508132)">
+          <package appName="AppModule" version="9.2.2508.2508132">AppModuleSolutionAnchor (9.2.2508.2508132)</package>
+        </Required>
+        <Dependent type="1" schemaName="aiskillconfig" displayName="AI Skill Config" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="fabricaiskill" displayName="Fabric AISkill" solution="msdyn_InsightsAppPlatform (1.0.3.99)">
+          <package appName="InsightsAppPlatformApp Package" version="1.0.3.99">InsightsAppPlatformApp_Anchor (1.0.3.99)</package>
+        </Required>
+        <Dependent type="1" schemaName="aipluginoperation" displayName="AIPluginOperation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdataset" displayName="AI Builder Dataset" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aibdataset" displayName="AI Builder Dataset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdataset" displayName="AI Builder Dataset" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aibdataset" parentDisplayName="AI Builder Dataset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdataset" displayName="AI Builder Dataset" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aibdataset" parentDisplayName="AI Builder Dataset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdataset" displayName="AI Builder Dataset" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aibdataset" parentDisplayName="AI Builder Dataset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdataset" displayName="AI Builder Dataset" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aibdataset" parentDisplayName="AI Builder Dataset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdataset" displayName="AI Builder Dataset" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aibdataset" parentDisplayName="AI Builder Dataset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdataset" displayName="AI Builder Dataset" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aibdataset" parentDisplayName="AI Builder Dataset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdataset" displayName="AI Builder Dataset" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aibdataset" parentDisplayName="AI Builder Dataset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdataset" displayName="AI Builder Dataset" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aibdataset" parentDisplayName="AI Builder Dataset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdataset" displayName="AI Builder Dataset" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aibdataset" parentDisplayName="AI Builder Dataset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetfile" displayName="AI Builder Dataset File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aibdatasetfile" displayName="AI Builder Dataset File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetfile" displayName="AI Builder Dataset File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aibdatasetfile" parentDisplayName="AI Builder Dataset File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetfile" displayName="AI Builder Dataset File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aibdatasetfile" parentDisplayName="AI Builder Dataset File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetfile" displayName="AI Builder Dataset File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aibdatasetfile" parentDisplayName="AI Builder Dataset File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetfile" displayName="AI Builder Dataset File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aibdatasetfile" parentDisplayName="AI Builder Dataset File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetfile" displayName="AI Builder Dataset File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aibdatasetfile" parentDisplayName="AI Builder Dataset File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetfile" displayName="AI Builder Dataset File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aibdatasetfile" parentDisplayName="AI Builder Dataset File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetfile" displayName="AI Builder Dataset File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aibdatasetfile" parentDisplayName="AI Builder Dataset File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetfile" displayName="AI Builder Dataset File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aibdatasetfile" parentDisplayName="AI Builder Dataset File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetfile" displayName="AI Builder Dataset File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aibdatasetfile" parentDisplayName="AI Builder Dataset File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetrecord" displayName="AI Builder Dataset Record" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aibdatasetrecord" displayName="AI Builder Dataset Record" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetrecord" displayName="AI Builder Dataset Record" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aibdatasetrecord" parentDisplayName="AI Builder Dataset Record" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetrecord" displayName="AI Builder Dataset Record" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aibdatasetrecord" parentDisplayName="AI Builder Dataset Record" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetrecord" displayName="AI Builder Dataset Record" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aibdatasetrecord" parentDisplayName="AI Builder Dataset Record" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetrecord" displayName="AI Builder Dataset Record" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aibdatasetrecord" parentDisplayName="AI Builder Dataset Record" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetrecord" displayName="AI Builder Dataset Record" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aibdatasetrecord" parentDisplayName="AI Builder Dataset Record" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetrecord" displayName="AI Builder Dataset Record" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aibdatasetrecord" parentDisplayName="AI Builder Dataset Record" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetrecord" displayName="AI Builder Dataset Record" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aibdatasetrecord" parentDisplayName="AI Builder Dataset Record" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetrecord" displayName="AI Builder Dataset Record" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aibdatasetrecord" parentDisplayName="AI Builder Dataset Record" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetrecord" displayName="AI Builder Dataset Record" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aibdatasetrecord" parentDisplayName="AI Builder Dataset Record" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetscontainer" displayName="AI Builder Datasets Container" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aibdatasetscontainer" displayName="AI Builder Datasets Container" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetscontainer" displayName="AI Builder Datasets Container" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aibdatasetscontainer" parentDisplayName="AI Builder Datasets Container" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetscontainer" displayName="AI Builder Datasets Container" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aibdatasetscontainer" parentDisplayName="AI Builder Datasets Container" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetscontainer" displayName="AI Builder Datasets Container" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aibdatasetscontainer" parentDisplayName="AI Builder Datasets Container" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetscontainer" displayName="AI Builder Datasets Container" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aibdatasetscontainer" parentDisplayName="AI Builder Datasets Container" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetscontainer" displayName="AI Builder Datasets Container" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aibdatasetscontainer" parentDisplayName="AI Builder Datasets Container" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetscontainer" displayName="AI Builder Datasets Container" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aibdatasetscontainer" parentDisplayName="AI Builder Datasets Container" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetscontainer" displayName="AI Builder Datasets Container" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aibdatasetscontainer" parentDisplayName="AI Builder Datasets Container" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetscontainer" displayName="AI Builder Datasets Container" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aibdatasetscontainer" parentDisplayName="AI Builder Datasets Container" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibdatasetscontainer" displayName="AI Builder Datasets Container" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aibdatasetscontainer" parentDisplayName="AI Builder Datasets Container" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfeedbackloop" displayName="AI Builder Feedback Loop" solution="msdyn_AISolutionFullAdditions (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aibfeedbackloop" displayName="AI Builder Feedback Loop" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfeedbackloop" displayName="AI Builder Feedback Loop" solution="msdyn_AISolutionFullAdditions (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aibfeedbackloop" parentDisplayName="AI Builder Feedback Loop" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfeedbackloop" displayName="AI Builder Feedback Loop" solution="msdyn_AISolutionFullAdditions (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aibfeedbackloop" parentDisplayName="AI Builder Feedback Loop" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfeedbackloop" displayName="AI Builder Feedback Loop" solution="msdyn_AISolutionFullAdditions (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aibfeedbackloop" parentDisplayName="AI Builder Feedback Loop" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfeedbackloop" displayName="AI Builder Feedback Loop" solution="msdyn_AISolutionFullAdditions (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aibfeedbackloop" parentDisplayName="AI Builder Feedback Loop" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfeedbackloop" displayName="AI Builder Feedback Loop" solution="msdyn_AISolutionFullAdditions (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aibfeedbackloop" parentDisplayName="AI Builder Feedback Loop" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfeedbackloop" displayName="AI Builder Feedback Loop" solution="msdyn_AISolutionFullAdditions (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aibfeedbackloop" parentDisplayName="AI Builder Feedback Loop" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfeedbackloop" displayName="AI Builder Feedback Loop" solution="msdyn_AISolutionFullAdditions (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aibfeedbackloop" parentDisplayName="AI Builder Feedback Loop" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfeedbackloop" displayName="AI Builder Feedback Loop" solution="msdyn_AISolutionFullAdditions (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aibfeedbackloop" parentDisplayName="AI Builder Feedback Loop" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfeedbackloop" displayName="AI Builder Feedback Loop" solution="msdyn_AISolutionFullAdditions (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aibfeedbackloop" parentDisplayName="AI Builder Feedback Loop" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfile" displayName="AI Builder File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aibfile" displayName="AI Builder File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfile" displayName="AI Builder File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aibfile" parentDisplayName="AI Builder File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfile" displayName="AI Builder File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aibfile" parentDisplayName="AI Builder File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfile" displayName="AI Builder File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aibfile" parentDisplayName="AI Builder File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfile" displayName="AI Builder File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aibfile" parentDisplayName="AI Builder File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfile" displayName="AI Builder File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="msdyn_imageid" parentSchemaName="msdyn_aibfile" parentDisplayName="AI Builder File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfile" displayName="AI Builder File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aibfile" parentDisplayName="AI Builder File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfile" displayName="AI Builder File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aibfile" parentDisplayName="AI Builder File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfile" displayName="AI Builder File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aibfile" parentDisplayName="AI Builder File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfile" displayName="AI Builder File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aibfile" parentDisplayName="AI Builder File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfile" displayName="AI Builder File" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aibfile" parentDisplayName="AI Builder File" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfileattacheddata" displayName="AI Builder File Attached Data" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aibfileattacheddata" displayName="AI Builder File Attached Data" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfileattacheddata" displayName="AI Builder File Attached Data" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aibfileattacheddata" parentDisplayName="AI Builder File Attached Data" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfileattacheddata" displayName="AI Builder File Attached Data" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aibfileattacheddata" parentDisplayName="AI Builder File Attached Data" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfileattacheddata" displayName="AI Builder File Attached Data" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aibfileattacheddata" parentDisplayName="AI Builder File Attached Data" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfileattacheddata" displayName="AI Builder File Attached Data" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aibfileattacheddata" parentDisplayName="AI Builder File Attached Data" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfileattacheddata" displayName="AI Builder File Attached Data" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aibfileattacheddata" parentDisplayName="AI Builder File Attached Data" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfileattacheddata" displayName="AI Builder File Attached Data" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aibfileattacheddata" parentDisplayName="AI Builder File Attached Data" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfileattacheddata" displayName="AI Builder File Attached Data" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aibfileattacheddata" parentDisplayName="AI Builder File Attached Data" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfileattacheddata" displayName="AI Builder File Attached Data" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aibfileattacheddata" parentDisplayName="AI Builder File Attached Data" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aibfileattacheddata" displayName="AI Builder File Attached Data" solution="msdyn_AISolutionDefaultTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aibfileattacheddata" parentDisplayName="AI Builder File Attached Data" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiconfiguration" displayName="AI Configuration" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aiconfiguration" displayName="AI Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiconfiguration" displayName="AI Configuration" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aiconfiguration" parentDisplayName="AI Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiconfiguration" displayName="AI Configuration" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aiconfiguration" parentDisplayName="AI Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiconfiguration" displayName="AI Configuration" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aiconfiguration" parentDisplayName="AI Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiconfiguration" displayName="AI Configuration" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aiconfiguration" parentDisplayName="AI Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiconfiguration" displayName="AI Configuration" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aiconfiguration" parentDisplayName="AI Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiconfiguration" displayName="AI Configuration" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owneridtype" parentSchemaName="msdyn_aiconfiguration" parentDisplayName="AI Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiconfiguration" displayName="AI Configuration" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aiconfiguration" parentDisplayName="AI Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiconfiguration" displayName="AI Configuration" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aiconfiguration" parentDisplayName="AI Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiconfiguration" displayName="AI Configuration" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aiconfiguration" parentDisplayName="AI Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiconfiguration" displayName="AI Configuration" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aiconfiguration" parentDisplayName="AI Configuration" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aievent" displayName="AI Event" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aievent" displayName="AI Event" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aievent" displayName="AI Event" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aievent" parentDisplayName="AI Event" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aievent" displayName="AI Event" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aievent" parentDisplayName="AI Event" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aievent" displayName="AI Event" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aievent" parentDisplayName="AI Event" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aievent" displayName="AI Event" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aievent" parentDisplayName="AI Event" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aievent" displayName="AI Event" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aievent" parentDisplayName="AI Event" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aievent" displayName="AI Event" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aievent" parentDisplayName="AI Event" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aievent" displayName="AI Event" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aievent" parentDisplayName="AI Event" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aievent" displayName="AI Event" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aievent" parentDisplayName="AI Event" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aievent" displayName="AI Event" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aievent" parentDisplayName="AI Event" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aifptrainingdocument" displayName="AI Form Processing Document" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aifptrainingdocument" displayName="AI Form Processing Document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aifptrainingdocument" displayName="AI Form Processing Document" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aifptrainingdocument" parentDisplayName="AI Form Processing Document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aifptrainingdocument" displayName="AI Form Processing Document" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aifptrainingdocument" parentDisplayName="AI Form Processing Document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aifptrainingdocument" displayName="AI Form Processing Document" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aifptrainingdocument" parentDisplayName="AI Form Processing Document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aifptrainingdocument" displayName="AI Form Processing Document" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aifptrainingdocument" parentDisplayName="AI Form Processing Document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aifptrainingdocument" displayName="AI Form Processing Document" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aifptrainingdocument" parentDisplayName="AI Form Processing Document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aifptrainingdocument" displayName="AI Form Processing Document" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aifptrainingdocument" parentDisplayName="AI Form Processing Document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aifptrainingdocument" displayName="AI Form Processing Document" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aifptrainingdocument" parentDisplayName="AI Form Processing Document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aifptrainingdocument" displayName="AI Form Processing Document" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aifptrainingdocument" parentDisplayName="AI Form Processing Document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aifptrainingdocument" displayName="AI Form Processing Document" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aifptrainingdocument" parentDisplayName="AI Form Processing Document" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aimodel" displayName="AI Model" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aimodel" displayName="AI Model" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aimodel" parentDisplayName="AI Model" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodimage" displayName="AI Object Detection Image" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aiodimage" displayName="AI Object Detection Image" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodimage" displayName="AI Object Detection Image" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aiodimage" parentDisplayName="AI Object Detection Image" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodimage" displayName="AI Object Detection Image" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aiodimage" parentDisplayName="AI Object Detection Image" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodimage" displayName="AI Object Detection Image" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="entityimageid" parentSchemaName="msdyn_aiodimage" parentDisplayName="AI Object Detection Image" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodimage" displayName="AI Object Detection Image" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aiodimage" parentDisplayName="AI Object Detection Image" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodimage" displayName="AI Object Detection Image" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aiodimage" parentDisplayName="AI Object Detection Image" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodimage" displayName="AI Object Detection Image" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aiodimage" parentDisplayName="AI Object Detection Image" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodimage" displayName="AI Object Detection Image" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aiodimage" parentDisplayName="AI Object Detection Image" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodimage" displayName="AI Object Detection Image" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aiodimage" parentDisplayName="AI Object Detection Image" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodimage" displayName="AI Object Detection Image" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aiodimage" parentDisplayName="AI Object Detection Image" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodimage" displayName="AI Object Detection Image" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aiodimage" parentDisplayName="AI Object Detection Image" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodlabel" displayName="AI Object Detection Label" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aiodlabel" displayName="AI Object Detection Label" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodlabel" displayName="AI Object Detection Label" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aiodlabel" parentDisplayName="AI Object Detection Label" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodlabel" displayName="AI Object Detection Label" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aiodlabel" parentDisplayName="AI Object Detection Label" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodlabel" displayName="AI Object Detection Label" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aiodlabel" parentDisplayName="AI Object Detection Label" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodlabel" displayName="AI Object Detection Label" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aiodlabel" parentDisplayName="AI Object Detection Label" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodlabel" displayName="AI Object Detection Label" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aiodlabel" parentDisplayName="AI Object Detection Label" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodlabel" displayName="AI Object Detection Label" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aiodlabel" parentDisplayName="AI Object Detection Label" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodlabel" displayName="AI Object Detection Label" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aiodlabel" parentDisplayName="AI Object Detection Label" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodlabel" displayName="AI Object Detection Label" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aiodlabel" parentDisplayName="AI Object Detection Label" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodlabel" displayName="AI Object Detection Label" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aiodlabel" parentDisplayName="AI Object Detection Label" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingboundingbox" displayName="AI Object Detection Bounding Box" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aiodtrainingboundingbox" displayName="AI Object Detection Bounding Box" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingboundingbox" displayName="AI Object Detection Bounding Box" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aiodtrainingboundingbox" parentDisplayName="AI Object Detection Bounding Box" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingboundingbox" displayName="AI Object Detection Bounding Box" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aiodtrainingboundingbox" parentDisplayName="AI Object Detection Bounding Box" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingboundingbox" displayName="AI Object Detection Bounding Box" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aiodtrainingboundingbox" parentDisplayName="AI Object Detection Bounding Box" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingboundingbox" displayName="AI Object Detection Bounding Box" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aiodtrainingboundingbox" parentDisplayName="AI Object Detection Bounding Box" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingboundingbox" displayName="AI Object Detection Bounding Box" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aiodtrainingboundingbox" parentDisplayName="AI Object Detection Bounding Box" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingboundingbox" displayName="AI Object Detection Bounding Box" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aiodtrainingboundingbox" parentDisplayName="AI Object Detection Bounding Box" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingboundingbox" displayName="AI Object Detection Bounding Box" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aiodtrainingboundingbox" parentDisplayName="AI Object Detection Bounding Box" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingboundingbox" displayName="AI Object Detection Bounding Box" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aiodtrainingboundingbox" parentDisplayName="AI Object Detection Bounding Box" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingboundingbox" displayName="AI Object Detection Bounding Box" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aiodtrainingboundingbox" parentDisplayName="AI Object Detection Bounding Box" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingimage" displayName="AI Object Detection Image Mapping" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aiodtrainingimage" displayName="AI Object Detection Image Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingimage" displayName="AI Object Detection Image Mapping" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aiodtrainingimage" parentDisplayName="AI Object Detection Image Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingimage" displayName="AI Object Detection Image Mapping" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aiodtrainingimage" parentDisplayName="AI Object Detection Image Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingimage" displayName="AI Object Detection Image Mapping" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aiodtrainingimage" parentDisplayName="AI Object Detection Image Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingimage" displayName="AI Object Detection Image Mapping" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aiodtrainingimage" parentDisplayName="AI Object Detection Image Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingimage" displayName="AI Object Detection Image Mapping" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aiodtrainingimage" parentDisplayName="AI Object Detection Image Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingimage" displayName="AI Object Detection Image Mapping" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aiodtrainingimage" parentDisplayName="AI Object Detection Image Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingimage" displayName="AI Object Detection Image Mapping" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aiodtrainingimage" parentDisplayName="AI Object Detection Image Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingimage" displayName="AI Object Detection Image Mapping" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aiodtrainingimage" parentDisplayName="AI Object Detection Image Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aiodtrainingimage" displayName="AI Object Detection Image Mapping" solution="msdyn_AISolutionDeprecatedTemplates (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aiodtrainingimage" parentDisplayName="AI Object Detection Image Mapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aitemplate" displayName="AI Template" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="1" schemaName="msdyn_aitemplate" displayName="AI Template" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aitemplate" displayName="AI Template" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdby" displayName="Created By" parentSchemaName="msdyn_aitemplate" parentDisplayName="AI Template" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aitemplate" displayName="AI Template" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="createdonbehalfby" displayName="Created By (Delegate)" parentSchemaName="msdyn_aitemplate" parentDisplayName="AI Template" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aitemplate" displayName="AI Template" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedby" displayName="Modified By" parentSchemaName="msdyn_aitemplate" parentDisplayName="AI Template" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aitemplate" displayName="AI Template" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="modifiedonbehalfby" displayName="Modified By (Delegate)" parentSchemaName="msdyn_aitemplate" parentDisplayName="AI Template" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aitemplate" displayName="AI Template" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="msdyn_aitemplate" parentDisplayName="AI Template" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aitemplate" displayName="AI Template" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningbusinessunit" displayName="Owning Business Unit" parentSchemaName="msdyn_aitemplate" parentDisplayName="AI Template" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aitemplate" displayName="AI Template" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owningteam" displayName="Owning Team" parentSchemaName="msdyn_aitemplate" parentDisplayName="AI Template" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aitemplate" displayName="AI Template" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="owninguser" displayName="Owning User" parentSchemaName="msdyn_aitemplate" parentDisplayName="AI Template" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aitemplate" displayName="AI Template" solution="msdyn_AISolution (202509.2.2.1)">
+          <package appName="PowerAI" version="202509.2.2.1">msdyn_AISolutionAnchor (202509.2.2.1)</package>
+        </Required>
+        <Dependent type="2" schemaName="versionnumber" displayName="Version Number" parentSchemaName="msdyn_aitemplate" parentDisplayName="AI Template" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_knowledgeassetconfiguration" displayName="Knowledge Asset Configuration" solution="msdyn_InsightsAppPlatform (1.0.3.99)">
+          <package appName="InsightsAppPlatformApp Package" version="1.0.3.99">InsightsAppPlatformApp_Anchor (1.0.3.99)</package>
+        </Required>
+        <Dependent type="1" schemaName="aipluginoperation" displayName="AIPluginOperation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="91" schemaName="Microsoft.Dynamics.BusinessCopilotAI.Plugins, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="Microsoft.Dynamics.BusinessCopilotAI.Plugins" solution="msdyn_BusinessCopilotAI (2.0.0.1351)" id="{23c52595-51d7-431a-8f4f-a60649d1c733}">
+          <package appName="BusinessCopilotAI" version="2.0.0.1351">msdyn_BusinessCopilotAIAnchor (2.0.0.1351)</package>
+        </Required>
+        <Dependent type="91" schemaName="Microsoft.Dynamics.BusinessCopilotAI.Plugins, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="Microsoft.Dynamics.BusinessCopilotAI.Plugins" id="{23c52595-51d7-431a-8f4f-a60649d1c733}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="91" schemaName="Microsoft.CDS.PowerAIExtensions.Plugins, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="Microsoft.CDS.PowerAIExtensions.Plugins" solution="msdyn_PowerAIExtensionsBase (1.0.1.1424)" id="{5b959593-2735-482e-9eaa-a34320e556ae}">
+          <package appName="PowerAIExtensions Package" version="1.0.1.1247">PowerAIExtensions_Anchor (1.0.1.1247)</package>
+          <package appName="PowerAIExtensions Package" version="1.0.1.1424">msdyn_PowerAIExtensionsSC (1.0.1.1424)</package>
+        </Required>
+        <Dependent type="91" schemaName="Microsoft.CDS.PowerAIExtensions.Plugins, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="Microsoft.CDS.PowerAIExtensions.Plugins" id="{5b959593-2735-482e-9eaa-a34320e556ae}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="91" schemaName="Microsoft.Dynamics.PowerAppsChecker.Plugins, Version=2.0.0.167, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="Microsoft.Dynamics.PowerAppsChecker.Plugins" solution="msdyn_PowerAppsChecker (2.0.0.167)" id="{738e7ceb-8b93-4602-acb2-7885f7496c3b}">
+          <package appName="PowerAppsChecker" version="2.0.0.167">msdyn_PowerAppsCheckerAnchor (2.0.0.167)</package>
+        </Required>
+        <Dependent type="91" schemaName="Microsoft.Dynamics.PowerAppsChecker.Plugins, Version=2.0.0.167, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="Microsoft.Dynamics.PowerAppsChecker.Plugins" id="{738e7ceb-8b93-4602-acb2-7885f7496c3b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="91" schemaName="Microsoft.PowerApps.AppCopilotFeatures.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="Microsoft.PowerApps.AppCopilotFeatures.Plugins" solution="msdyn_AppCopilotFeatures (9.2.2025062.250606027)" id="{a56a252d-a669-4639-808d-dbef33955446}">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.0.1">PowerAppsAppCopilotApp_Anchor (9.2.0.1)</package>
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="91" schemaName="Microsoft.PowerApps.AppCopilotFeatures.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="Microsoft.PowerApps.AppCopilotFeatures.Plugins" id="{a56a252d-a669-4639-808d-dbef33955446}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="91" schemaName="Microsoft.Dynamics.PowerVA.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="Microsoft.Dynamics.PowerVA.Plugins" solution="PowerVirtualAgents (2025.10.2.18471237)" id="{f35fde6e-d0a0-41c5-a355-188f20f940a8}">
+          <package appName="CCI Bots" version="2025.10.2.18471237">msdynce_CustomerCareIntelligenceBots_Anchor (2025.10.2.18471237)</package>
+        </Required>
+        <Dependent type="91" schemaName="Microsoft.Dynamics.PowerVA.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="Microsoft.Dynamics.PowerVA.Plugins" id="{f35fde6e-d0a0-41c5-a355-188f20f940a8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="91" schemaName="Microsoft.Dynamics.SolutionComponentConfiguration.Plugins, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="Microsoft.Dynamics.SolutionComponentConfiguration.Plugins" solution="SolutionComponentConfiguration (9.1.1.1)" id="{f7ac8f70-f121-4262-902f-9ea5d10592fe}">
+          <package appName="Solution History Package" version="9.1.0.10">SolutionHistoryAnchor (9.1.0.10)</package>
+        </Required>
+        <Dependent type="91" schemaName="Microsoft.Dynamics.SolutionComponentConfiguration.Plugins, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" displayName="Microsoft.Dynamics.SolutionComponentConfiguration.Plugins" id="{f7ac8f70-f121-4262-902f-9ea5d10592fe}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="92" displayName="Microsoft.Dynamics.PowerVA.Plugins.Bot.PostOperationBotPvaAuthorize: PvaAuthorize of bot" solution="PowerVirtualAgents (2025.10.2.18471237)" id="{4e2492eb-f393-ea11-a81e-000d3ac62845}">
+          <package appName="CCI Bots" version="2025.10.2.18471237">msdynce_CustomerCareIntelligenceBots_Anchor (2025.10.2.18471237)</package>
+        </Required>
+        <Dependent type="92" displayName="Microsoft.Dynamics.PowerVA.Plugins.Bot.PostOperationBotPvaAuthorize: PvaAuthorize of bot" id="{4e2492eb-f393-ea11-a81e-000d3ac62845}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="92" displayName="Microsoft.Dynamics.PowerVA.Plugins.BotComponentDVTableSearchOperation.PostOperationBotComponentDVTableSearchOperationCreate: Create of botcomponent_dvtablesearch" solution="PowerVirtualAgents (2025.10.2.18471237)" id="{891375c2-f6e0-ee11-904c-6045bd04f723}">
+          <package appName="CCI Bots" version="2025.10.2.18471237">msdynce_CustomerCareIntelligenceBots_Anchor (2025.10.2.18471237)</package>
+        </Required>
+        <Dependent type="92" displayName="Microsoft.Dynamics.PowerVA.Plugins.BotComponentDVTableSearchOperation.PostOperationBotComponentDVTableSearchOperationCreate: Create of botcomponent_dvtablesearch" id="{891375c2-f6e0-ee11-904c-6045bd04f723}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="92" displayName="Microsoft.Dynamics.PowerVA.Plugins.BotComponentCollection.PostOperationBotComponentCollectionPvaAuthorize: PvaAuthorize of BotComponentCollection" solution="PowerVirtualAgents (2025.10.2.18471237)" id="{9ed35044-476d-4b71-a7f8-6194edbf0b39}">
+          <package appName="CCI Bots" version="2025.10.2.18471237">msdynce_CustomerCareIntelligenceBots_Anchor (2025.10.2.18471237)</package>
+        </Required>
+        <Dependent type="92" displayName="Microsoft.Dynamics.PowerVA.Plugins.BotComponentCollection.PostOperationBotComponentCollectionPvaAuthorize: PvaAuthorize of BotComponentCollection" id="{9ed35044-476d-4b71-a7f8-6194edbf0b39}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="92" displayName="Microsoft.Dynamics.PowerVA.Plugins.BotComponentDVTableSearchOperation.PostOperationBotComponentDVTableSearchOperationDelete: Delete of botcomponent_dvtablesearch" solution="PowerVirtualAgents (2025.10.2.18471237)" id="{b2d0db0e-f6e0-ee11-904c-6045bd04f723}">
+          <package appName="CCI Bots" version="2025.10.2.18471237">msdynce_CustomerCareIntelligenceBots_Anchor (2025.10.2.18471237)</package>
+        </Required>
+        <Dependent type="92" displayName="Microsoft.Dynamics.PowerVA.Plugins.BotComponentDVTableSearchOperation.PostOperationBotComponentDVTableSearchOperationDelete: Delete of botcomponent_dvtablesearch" id="{b2d0db0e-f6e0-ee11-904c-6045bd04f723}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="AICopilot" displayName="msft_Microsoft365Copilot" solution="msft_AIPlatformExtensionsCoreData (1.0.0.8)" id.name="msft_Microsoft365Copilot">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="AICopilot" displayName="msft_Microsoft365Copilot" id.name="msft_Microsoft365Copilot" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="AICopilot" displayName="msft_MicrosoftSalesCopilot" solution="msft_AIPlatformExtensionsCoreData (1.0.0.8)" id.name="msft_MicrosoftSalesCopilot">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="AICopilot" displayName="msft_MicrosoftSalesCopilot" id.name="msft_MicrosoftSalesCopilot" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="solutioncomponentconfiguration" displayName="aicopilot" solution="msft_AIPlatformExtensionsCore (1.0.0.96)" id.entityid.logicalname="aicopilot">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="solutioncomponentconfiguration" displayName="aicopilot" id.entityid.logicalname="aicopilot" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="solutioncomponentconfiguration" displayName="aiplugin" solution="msft_AIPlatformExtensionsCore (1.0.0.96)" id.entityid.logicalname="aiplugin">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="solutioncomponentconfiguration" displayName="aiplugin" id.entityid.logicalname="aiplugin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="solutioncomponentconfiguration" displayName="aipluginconversationstarter" solution="msft_AIPlatformExtensionsCore (1.0.0.96)" id.entityid.logicalname="aipluginconversationstarter">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="solutioncomponentconfiguration" displayName="aipluginconversationstarter" id.entityid.logicalname="aipluginconversationstarter" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="solutioncomponentconfiguration" displayName="aipluginconversationstartermapping" solution="msft_AIPlatformExtensionsCore (1.0.0.96)" id.entityid.logicalname="aipluginconversationstartermapping">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="solutioncomponentconfiguration" displayName="aipluginconversationstartermapping" id.entityid.logicalname="aipluginconversationstartermapping" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="solutioncomponentconfiguration" displayName="aipluginexternalschema" solution="msft_AIPlatformExtensionsCore (1.0.0.96)" id.entityid.logicalname="aipluginexternalschema">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="solutioncomponentconfiguration" displayName="aipluginexternalschema" id.entityid.logicalname="aipluginexternalschema" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="solutioncomponentconfiguration" displayName="aipluginexternalschemaproperty" solution="msft_AIPlatformExtensionsCore (1.0.0.96)" id.entityid.logicalname="aipluginexternalschemaproperty">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="solutioncomponentconfiguration" displayName="aipluginexternalschemaproperty" id.entityid.logicalname="aipluginexternalschemaproperty" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="solutioncomponentconfiguration" displayName="aiplugininstance" solution="msft_AIPlatformExtensionsCore (1.0.0.96)" id.entityid.logicalname="aiplugininstance">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="solutioncomponentconfiguration" displayName="aiplugininstance" id.entityid.logicalname="aiplugininstance" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="solutioncomponentconfiguration" displayName="aipluginoperation" solution="msft_AIPlatformExtensionsCore (1.0.0.96)" id.entityid.logicalname="aipluginoperation">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="solutioncomponentconfiguration" displayName="aipluginoperation" id.entityid.logicalname="aipluginoperation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="solutioncomponentconfiguration" displayName="aipluginoperationresponsetemplate" solution="msft_AIPlatformExtensionsCore (1.0.0.96)" id.entityid.logicalname="aipluginoperationresponsetemplate">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="solutioncomponentconfiguration" displayName="aipluginoperationresponsetemplate" id.entityid.logicalname="aipluginoperationresponsetemplate" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="solutioncomponentconfiguration" displayName="aiplugintitle" solution="msft_AIPlatformExtensionsCore (1.0.0.96)" id.entityid.logicalname="aiplugintitle">
+          <package appName="AIPlatformExtensionss Package" version="1.0.0.8">msft_AIPlatformExtensionsCoreData (1.0.0.8)</package>
+        </Required>
+        <Dependent type="solutioncomponentconfiguration" displayName="aiplugintitle" id.entityid.logicalname="aiplugintitle" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="solutioncomponentconfiguration" displayName="aiskillconfig" solution="msdyn_AppCopilotAppInfraSettings (9.2.2025062.250606027)" id.entityid.logicalname="aiskillconfig">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.0.1">PowerAppsAppCopilotApp_Anchor (9.2.0.1)</package>
+          <package appName="PowerAppsAppCopilotApp Package" version="1.0.0.2">msdyn_SuggestedAction (1.0.0.2)</package>
+        </Required>
+        <Dependent type="solutioncomponentconfiguration" displayName="aiskillconfig" id.entityid.logicalname="aiskillconfig" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="solutioncomponentconfiguration" displayName="botcomponent_aipluginoperation" solution="PowerVirtualAgents (2025.10.2.18471237)" id.entityid.logicalname="botcomponent_aipluginoperation">
+          <package appName="CCI Bots" version="2025.10.2.18471237">msdynce_CustomerCareIntelligenceBots_Anchor (2025.10.2.18471237)</package>
+        </Required>
+        <Dependent type="solutioncomponentconfiguration" displayName="botcomponent_aipluginoperation" id.entityid.logicalname="botcomponent_aipluginoperation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="solutioncomponentconfiguration" displayName="botcomponent_msdyn_aimodel" solution="PowerVirtualAgents (2025.10.2.18471237)" id.entityid.logicalname="botcomponent_msdyn_aimodel">
+          <package appName="CCI Bots" version="2025.10.2.18471237">msdynce_CustomerCareIntelligenceBots_Anchor (2025.10.2.18471237)</package>
+        </Required>
+        <Dependent type="solutioncomponentconfiguration" displayName="botcomponent_msdyn_aimodel" id.entityid.logicalname="botcomponent_msdyn_aimodel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
