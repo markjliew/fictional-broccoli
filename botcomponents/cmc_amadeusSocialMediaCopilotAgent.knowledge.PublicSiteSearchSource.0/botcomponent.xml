@@ -1,0 +1,12 @@
+<botcomponent schemaname="cmc_amadeusSocialMediaCopilotAgent.knowledge.PublicSiteSearchSource.0">
+  <category>Authoritative</category>
+  <componenttype>16</componenttype>
+  <description>This knowledge source searches information on the web found in https://help.hootsuite.com/ website </description>
+  <iscustomizable>0</iscustomizable>
+  <name>https://help.hootsuite.com/</name>
+  <parentbotid>
+    <schemaname>cmc_amadeusSocialMediaCopilotAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

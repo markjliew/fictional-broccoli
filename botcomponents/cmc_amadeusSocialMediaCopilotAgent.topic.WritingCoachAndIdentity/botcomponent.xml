@@ -1,0 +1,11 @@
+<botcomponent schemaname="cmc_amadeusSocialMediaCopilotAgent.topic.WritingCoachAndIdentity">
+  <componenttype>9</componenttype>
+  <description>Suggests improvements for social media copy while aligning with branding.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>WritingCoachAndIdentity</name>
+  <parentbotid>
+    <schemaname>cmc_amadeusSocialMediaCopilotAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

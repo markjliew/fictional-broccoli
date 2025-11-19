@@ -1,0 +1,12 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  condition: =Global.Topic = 'cmc_amadeusSocialMediaCopilotAgent.entity.Topic'.GnF9c7
+  intent:
+    displayName: Internal Guidelines & Policies
+
+  actions:
+    - kind: SearchAndSummarizeContent
+      id: lmv7Mj
+      userInput: =System.Recognizer.TriggeringMessage.Text

@@ -1,0 +1,15 @@
+kind: Variable
+name: ContentFormat
+scope: Conversation
+initializationTimeoutInMilliseconds: 0
+aIVisibility: UseInAIContext
+canEdit: true
+dataType:
+  $kind: ClosedListOptionSet
+  schemaName: cmc_amadeusSocialMediaCopilotAgent.entity.ContentFormat
+
+displayNameForDataType: choice
+isUserScope: false
+propertyPath: Global.ContentFormat
+variableName: ContentFormat
+variableTypePrefix: Global

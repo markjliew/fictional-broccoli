@@ -1,0 +1,11 @@
+<botcomponent schemaname="cmc_amadeusSocialMediaCopilotAgent.gpt.default">
+  <componenttype>15</componenttype>
+  <description>Provides expert assistance on social media related tasks, including content planning, scheduling, publishing, analytics, and writing style refinement. It offers tailored platform-specific recommendations, from format specifications to best posting times, ensures compliance with company branding policies, and provides writing feedback to optimize tone and engagement. With actionable insights, dynamic responses, and seamless workflows, the Copilot empowers users to streamline processes, optimize engagement, and achieve their goals across platforms.</description>
+  <iscustomizable>1</iscustomizable>
+  <name>Amadeus Social Media Copilot Agent</name>
+  <parentbotid>
+    <schemaname>cmc_amadeusSocialMediaCopilotAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

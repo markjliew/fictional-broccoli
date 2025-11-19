@@ -1,0 +1,6 @@
+kind: Variable
+name: topicID.structuredOutput
+scope: Conversation
+isExternalInitializationAllowed: false
+initializationTimeoutInMilliseconds: 0
+aIVisibility: Hidden

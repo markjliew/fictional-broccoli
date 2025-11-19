@@ -1,0 +1,11 @@
+<botcomponent schemaname="cmc_amadeusSocialMediaCopilotAgent.knowledge.SharePointSearchSource.0">
+  <componenttype>16</componenttype>
+  <description>This knowledge source provides information found in EV50gsKb2QJApvmQ-OCdNVcBK8Kgzxb0kxOqEDJZ9Yh_SA SharePoint.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Social media process and policy</name>
+  <parentbotid>
+    <schemaname>cmc_amadeusSocialMediaCopilotAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

@@ -1,0 +1,6 @@
+kind: Variable
+name: UserIntent
+scope: Conversation
+isExternalInitializationAllowed: true
+initializationTimeoutInMilliseconds: 0
+aIVisibility: Hidden

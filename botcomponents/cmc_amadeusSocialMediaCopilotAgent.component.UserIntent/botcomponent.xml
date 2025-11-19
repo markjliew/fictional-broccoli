@@ -1,0 +1,10 @@
+<botcomponent schemaname="cmc_amadeusSocialMediaCopilotAgent.component.UserIntent">
+  <componenttype>12</componenttype>
+  <description>Used to determine user need for assistance as far as social media topic area, and identify key details that inform subsequent responses from agent that will ensure accuracy</description>
+  <iscustomizable>0</iscustomizable>
+  <parentbotid>
+    <schemaname>cmc_amadeusSocialMediaCopilotAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

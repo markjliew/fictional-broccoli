@@ -1,0 +1,56 @@
+kind: ClosedListEntity
+smartMatchingEnabled: true
+items:
+  - id: cSBD4D
+    displayName: status update
+    synonyms:
+      - text
+      - copy
+      - caption
+      - description
+
+  - id: PtEnqJ
+    displayName: Carousel
+    synonyms:
+      - PDF
+      - slideshow
+      - slides
+      - multi-image post
+      - scrollable images
+
+  - id: atkIV6
+    displayName: Story
+    synonyms:
+      - short
+      - highlight
+      - ephemeral post
+      - disappearing content
+
+  - id: 0suVjn
+    displayName: IMG
+    synonyms:
+      - jpg
+      - card
+      - jpeg
+      - banner
+      - png
+      - photo
+      - picture
+      - image
+
+  - id: 4nT024
+    displayName: MP4
+    synonyms:
+      - mpeg
+      - avi
+      - clip
+      - reel
+      - vid
+      - vdo
+      - video
+
+  - id: how4Us
+    displayName: GIF
+    synonyms:
+      - motion gif
+      - animated gif

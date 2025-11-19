@@ -1,0 +1,6 @@
+kind: Variable
+name: convstartVar
+scope: Conversation
+isExternalInitializationAllowed: false
+initializationTimeoutInMilliseconds: 0
+aIVisibility: UseInAIContext

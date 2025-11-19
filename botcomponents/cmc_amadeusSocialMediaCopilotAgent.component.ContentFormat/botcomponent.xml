@@ -1,0 +1,10 @@
+<botcomponent schemaname="cmc_amadeusSocialMediaCopilotAgent.component.ContentFormat">
+  <componenttype>12</componenttype>
+  <description>Matches with 'cmc_amadeusSocialMediaCopilotAgent.entity.ContentFormat' entity</description>
+  <iscustomizable>0</iscustomizable>
+  <parentbotid>
+    <schemaname>cmc_amadeusSocialMediaCopilotAgent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

@@ -1,0 +1,4 @@
+kind: KnowledgeSourceConfiguration
+source:
+  kind: SharePointSearchSource
+  site: https://amadeusworkplace.sharepoint.com/:p:/s/GlobalCorporateCommunications/EXmRw0GCvLVEr4Fvkw9hE40BOxgQUc6RlpuhVsyiiu4b3A

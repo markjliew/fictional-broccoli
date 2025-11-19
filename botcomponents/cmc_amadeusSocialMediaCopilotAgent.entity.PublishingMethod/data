@@ -1,0 +1,21 @@
+kind: ClosedListEntity
+smartMatchingEnabled: true
+items:
+  - id: B7HfjX
+    displayName: natively
+    synonyms:
+      - via the app
+      - via the network
+      - directly
+
+  - id: pk4eqQ
+    displayName: social media management dashboard
+    synonyms:
+      - Sprout
+      - Oktopost
+      - Hubspot
+      - Sprinklr
+      - Buffer
+      - Hootsuite
+      - via API
+      - publishing tool

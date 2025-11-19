@@ -1,0 +1,7 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  condition: =Global.Topic = 'cmc_amadeusSocialMediaCopilotAgent.entity.Topic'.OIDmLt
+  intent:
+    displayName: Writing Coach & Verbal Identity
